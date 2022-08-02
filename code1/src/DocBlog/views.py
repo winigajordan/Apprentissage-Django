@@ -8,7 +8,7 @@ def index (request):
     date = datetime.today()
     return render(
         request,
-        "index.html",
+        "DocBlog/index.html",
         context={
             "nom":"rema",
             "prenom": "jordan",
